@@ -33,7 +33,7 @@ main {
 	height:360px;
 	background-color:grey;
 	margin:0 auto;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 
 #houseImages { position:relative; width:4000px; transition: all .5s; }
@@ -98,6 +98,26 @@ main {
 
 /* add styles here for lightbox and video */
 
+.lightbox {
+  display: none;
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.show-lightbox{
+  display:block;
+}
+
+.lightbox-close{
+	color: white;
+	float:right;
+	display: block;
+	font-size:20px;
+	right:200px;
+	cursor: pointer;
+}
 
 
 video {
